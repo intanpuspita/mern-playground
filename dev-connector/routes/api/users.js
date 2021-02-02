@@ -61,7 +61,7 @@ router.post('/', [
 
         // return jsonwebtoken
         const payload = {
-            selectedUser: {
+            user: {
                 id: selectedUser.id
             }
         }
